@@ -1,4 +1,5 @@
 .divStyle{
+    display: flex;
     height: 50px;
     width: 50px;
     border: 2px solid black;
@@ -21,6 +22,38 @@
 
 .lighton:hover{
     box-shadow: 0 0 10px 2px orange;
+}
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 10%;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: yellow;
+    text-shadow: 0 0 5px #fff, 0 0 10px yellow, 0 0 20px orange;
+    animation: glow 1.5s infinite alternate;
+}
+
+/* Definer animasjonen */
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px yellow, 0 0 20px orange;
+        color: yellow;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px yellow, 0 0 40px orange;
+        color: orange;
+    }
 }
 
 h2{
