@@ -1,0 +1,28 @@
+.divStyle{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: hotpink;
+}
+
+#app{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    gap: 5px;
+}
+
+.lighton{
+    background-color: rgb(245, 245, 0);
+    cursor: pointer;
+
+}
+
+.lighton:hover{
+    box-shadow: 0 0 10px 2px orange;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}

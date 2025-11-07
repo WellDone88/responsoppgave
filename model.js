@@ -1,0 +1,7 @@
+const model = {
+    
+    selectedlampindex: null,
+
+
+
+}
