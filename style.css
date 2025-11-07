@@ -44,7 +44,6 @@ h1 {
     animation: glow 1.5s infinite alternate;
 }
 
-/* Definer animasjonen */
 @keyframes glow {
     from {
         text-shadow: 0 0 5px #fff, 0 0 10px yellow, 0 0 20px orange;
